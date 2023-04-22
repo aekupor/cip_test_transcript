@@ -1,0 +1,1138 @@
+WEBVTT
+
+1
+00:00:00.510 --> 00:00:01.550
+Ashlee Kupor (SL): Let's do that
+
+2
+00:00:01.790 --> 00:00:07.080
+Dora Demszky: by, too. We? And then
+
+3
+00:00:07.170 --> 00:00:09.520
+No, it's gonna. I think it's
+
+4
+00:00:09.830 --> 00:00:12.050
+Dora Demszky: transcribing.
+
+5
+00:00:16.520 --> 00:00:18.180
+Dora Demszky: Yeah, I think it is.
+
+6
+00:00:19.310 --> 00:00:24.090
+Dora Demszky: It's transcribing stuff. So yeah, i'll send you what I have after this.
+
+7
+00:00:24.680 --> 00:00:28.020
+Ashlee Kupor (SL): Okay, great. Can you send a few things in the chat, too?
+
+8
+00:00:29.200 --> 00:00:30.490
+Dora Demszky: Oh, yeah, yeah, yeah.
+
+9
+00:00:38.850 --> 00:00:50.040
+Ashlee Kupor (SL): Okay, Great. Yeah, that would be helpful. Let's see. I think so. Yeah, those are the big last to do on my end.
+
+10
+00:00:50.230 --> 00:00:55.200
+Ashlee Kupor (SL): Okay? And then the big question I have is
+
+11
+00:00:55.500 --> 00:01:01.510
+Ashlee Kupor (SL): where these are going to live the like how we're gonna pull the transcripts in.
+
+12
+00:01:02.990 --> 00:01:06.850
+Ashlee Kupor (SL): I looked into just doing as a Google drive link, and
+
+13
+00:01:06.940 --> 00:01:19.190
+Dora Demszky: it's a lot of work to get it up and running, if that's not going to be the way we actually are storing them in the end. So I sent a message to Chris, and I don't think he ever responded.
+
+14
+00:01:21.170 --> 00:01:22.100
+Ashlee Kupor (SL): Yeah.
+
+15
+00:01:23.300 --> 00:01:29.470
+Ashlee Kupor (SL): if we can, we get an answer on where they're going to be stored? Because then I I don't want to like double.
+
+16
+00:01:29.490 --> 00:01:30.990
+Do a lot of work
+
+17
+00:01:31.340 --> 00:01:32.110
+Ashlee Kupor (SL): to like.
+
+18
+00:01:32.170 --> 00:01:34.750
+Dora Demszky: just for like one test, if that makes sense.
+
+19
+00:01:35.670 --> 00:01:39.380
+Dora Demszky: Yes, yes, for sure.
+
+20
+00:01:42.690 --> 00:01:48.830
+Dora Demszky: I think he is just gonna provide us with some links.
+
+21
+00:01:49.580 --> 00:02:01.980
+Dora Demszky: and I think it's probably he said something like Google Cloud. But let me let me follow up. I know that. Probably it's crazy for him. So I just I just
+
+22
+00:02:01.990 --> 00:02:07.620
+Dora Demszky: p him. I think tomorrow or something, or maybe yeah, that's
+
+23
+00:02:33.130 --> 00:02:34.280
+Ashlee Kupor (SL): okay.
+
+24
+00:03:10.870 --> 00:03:14.810
+Dora Demszky: Okay, yeah, hope I just message him. Hopefully, i'll get back.
+
+25
+00:03:15.670 --> 00:03:28.760
+Ashlee Kupor (SL): Okay, Great. Because yeah, I think that's a big question. So yeah, once we have that, then we just need to add it into the like actual flow. So like
+
+26
+00:03:29.850 --> 00:03:35.650
+Ashlee Kupor (SL): I I don't know when exactly we want to run this.
+
+27
+00:03:36.200 --> 00:03:37.280
+But
+
+28
+00:03:37.420 --> 00:03:45.850
+Ashlee Kupor (SL): yeah, we're basically need to. Yeah, we can just call our our endpoint with the transcript. It's already working.
+
+29
+00:03:47.060 --> 00:03:54.400
+Ashlee Kupor (SL): No, the endpoints not working yet, because it it will work. Once we add in the file reading stuff.
+
+30
+00:03:54.600 --> 00:03:56.750
+Dora Demszky: Okay, Awesome. So
+
+31
+00:04:03.440 --> 00:04:04.510
+Dora Demszky: is it.
+
+32
+00:04:06.640 --> 00:04:22.220
+Dora Demszky: Is it possible, like, is there some easy way to just create a link for a file like I'm. I'm not sure. Like. Maybe Google drives is a lot of work, because you probably have to do authentication and that kind of stuff. And when they send me like public link we could just
+
+33
+00:04:22.440 --> 00:04:25.920
+Dora Demszky: create for a file.
+
+34
+00:04:26.650 --> 00:04:30.780
+Dora Demszky: I I've no idea. But just really for testing purposes.
+
+35
+00:04:32.310 --> 00:04:35.400
+Ashlee Kupor (SL): Yeah. So some sort of
+
+36
+00:04:36.370 --> 00:04:40.250
+Ashlee Kupor (SL): well. So you said you think it's gonna be on Google Cloud.
+
+37
+00:04:40.760 --> 00:04:52.730
+Dora Demszky: I think that's what he said. I I think that's what Chris to say. Ideally like it should be just a link, and you can, I mean, I think, for now we should just do something where you don't need authentication. It's just a link.
+
+38
+00:04:52.850 --> 00:04:56.610
+Dora Demszky: You download it like, and it works so I
+
+39
+00:04:58.540 --> 00:05:00.840
+Dora Demszky: I could host it on my
+
+40
+00:05:02.060 --> 00:05:05.010
+Dora Demszky: well, no, actually my website.
+
+41
+00:05:06.210 --> 00:05:07.120
+Dora Demszky: I don't.
+
+42
+00:05:09.750 --> 00:05:15.610
+Dora Demszky: or like a github like. Could it be a hard link for just for now.
+
+43
+00:05:15.790 --> 00:05:18.290
+Dora Demszky: like a public github thing
+
+44
+00:05:21.300 --> 00:05:24.030
+Dora Demszky: like you. Yeah. So let's see. I'm just
+
+45
+00:05:24.170 --> 00:05:27.270
+Ashlee Kupor (SL): seeing here let me share my screen.
+
+46
+00:05:30.460 --> 00:05:35.610
+Ashlee Kupor (SL): We could try to do something like this reading from cloud storage. So
+
+47
+00:05:36.240 --> 00:05:44.700
+Ashlee Kupor (SL): I assume, yeah, we are going to need some sort of Api key right to get the bucket. Not sure what. And then
+
+48
+00:05:46.640 --> 00:05:48.670
+Dora Demszky: Yeah. Okay.
+
+49
+00:05:48.900 --> 00:05:54.950
+Dora Demszky: here. Okay. So I think I think that Leslie said that up before we sure you need it.
+
+50
+00:05:55.130 --> 00:06:02.580
+Dora Demszky: But the way that you could actually do like, you know, you just you can use our own github, or something like that. You just
+
+51
+00:06:02.650 --> 00:06:06.790
+Dora Demszky: raw like, you know you have a text, and then you just
+
+52
+00:06:07.060 --> 00:06:11.780
+Dora Demszky: upload like a raw file like the Vtt. Transcript
+
+53
+00:06:13.210 --> 00:06:19.750
+Dora Demszky: to let's say our github, or something like that, and then. and then just experiment with that.
+
+54
+00:06:20.100 --> 00:06:22.870
+Dora Demszky: For now, with that like, you know.
+
+55
+00:06:23.370 --> 00:06:30.030
+Ashlee Kupor (SL): I think that I I thought you just said you didn't want the Vt. That that that that transcript to be
+
+56
+00:06:30.290 --> 00:06:31.410
+Ashlee Kupor (SL): public
+
+57
+00:06:31.650 --> 00:06:35.960
+Dora Demszky: we could use whenever we now get from this conversation?
+
+58
+00:06:36.250 --> 00:06:45.940
+Ashlee Kupor (SL): Oh, sure, that's a great idea. Also like you could put it behind like on our github, which I think is private. But I don't
+
+59
+00:06:46.180 --> 00:06:49.460
+Dora Demszky: no if it's going to create other issues of like
+
+60
+00:06:49.800 --> 00:06:54.830
+Dora Demszky: in the endpoint needing to authenticate anything.
+
+61
+00:06:57.570 --> 00:07:01.870
+Ashlee Kupor (SL): Yeah, that's a good idea. Let's just use this as our transcript.
+
+62
+00:07:02.770 --> 00:07:10.020
+Dora Demszky: Yeah, I think, for now we just want so make sure everything works, and then we can figure out like the authentication stuff.
+
+63
+00:07:10.760 --> 00:07:12.480
+Ashlee Kupor (SL): Cool? Okay.
+
+64
+00:07:13.820 --> 00:07:15.280
+Ashlee Kupor (SL): Okay.
+
+65
+00:07:23.630 --> 00:07:27.480
+Ashlee Kupor (SL): awesome. Yeah, If you can send me this transcript, then once you get it. That would be great.
+
+66
+00:07:27.600 --> 00:07:32.740
+Dora Demszky: Yeah, I will for sure. And
+
+67
+00:07:33.020 --> 00:07:37.440
+Dora Demszky: I have. Yeah, do you have any other questions or to do?
+
+68
+00:07:37.680 --> 00:07:44.790
+Ashlee Kupor (SL): Let me see. So yeah, got to filter out this section leaders or you add in the chat.
+
+69
+00:07:45.200 --> 00:07:47.890
+I need to fix the Json.
+
+70
+00:07:48.120 --> 00:07:52.480
+Ashlee Kupor (SL): And then, yeah, the next big one is yeah, adding in the files.
+
+71
+00:07:52.910 --> 00:07:57.250
+Ashlee Kupor (SL): Yeah, I think that's that's all my big questions.
+
+72
+00:07:57.720 --> 00:08:04.390
+Dora Demszky: I think. Yeah, that sounds funny, and it's great. So I think for for my perspective. It's just.
+
+73
+00:08:04.790 --> 00:08:08.130
+Dora Demszky: It would be nice if we could
+
+74
+00:08:10.530 --> 00:08:16.270
+Dora Demszky: somehow. Do you identify the transcript? Just? I mean, I think
+
+75
+00:08:17.330 --> 00:08:19.680
+Dora Demszky: there are pros and cons so
+
+76
+00:08:21.910 --> 00:08:23.330
+Dora Demszky: meaning that like
+
+77
+00:08:23.340 --> 00:08:39.370
+Dora Demszky: you would literally just like replace the section leader. Name with with you something like that, you section leader or whatever, because they they're gonna get their own. So it could be just you. And then students would be just. Every individual name would be like
+
+78
+00:08:39.840 --> 00:08:46.280
+Dora Demszky: to unique, like student, one student, 2, or you could even just do like their first.
+
+79
+00:08:46.400 --> 00:08:50.740
+Dora Demszky: and like something like that. I think
+
+80
+00:08:51.830 --> 00:09:05.160
+Dora Demszky: the thing about it is that it's gonna be private to them. So it. I I think one question that I have is whether it's more confusing to them if they can see their students names.
+
+81
+00:09:05.740 --> 00:09:09.500
+Dora Demszky: because that might be the conversation better.
+
+82
+00:09:11.590 --> 00:09:21.870
+Dora Demszky: But okay, so this is like, I think I would say, like not high priority. But I just wanted to sort of make sure to somewhere on the list, because I do think, when we do our analyses
+
+83
+00:09:22.120 --> 00:09:28.170
+Dora Demszky: in turn, like ideally, the transcripts that are not the identified should not live anywhere
+
+84
+00:09:28.270 --> 00:09:46.750
+Dora Demszky: like ideally at some point, even if it's just for our own internal purposes, we should de identify them. and it's fine for them to see their own transcript, but probably not for anyone else to really see their transcript like without the identification. So
+
+85
+00:09:47.560 --> 00:09:55.420
+Ashlee Kupor (SL): yeah, in terms of the identifying, just thinking about how the code structured. It would be really easy.
+
+86
+00:09:55.610 --> 00:10:04.430
+Ashlee Kupor (SL): just like when we read in the Transcript. Obviously, it would say, like, actually, Dora, I could just say, every time you see, actually replace the student
+
+87
+00:10:04.700 --> 00:10:07.310
+or like student one whatever.
+
+88
+00:10:07.500 --> 00:10:08.490
+Dora Demszky: But
+
+89
+00:10:08.830 --> 00:10:13.080
+Ashlee Kupor (SL): yeah, I agree. Probably not.
+
+90
+00:10:13.210 --> 00:10:20.150
+Oh, well, now, i'm thinking. I believe, that how it is now, when I return it
+
+91
+00:10:20.820 --> 00:10:25.090
+Ashlee Kupor (SL): it will say, student, Wait no Won't.
+
+92
+00:10:26.070 --> 00:10:29.440
+Ashlee Kupor (SL): Yeah, no, it won't. Say, student, it will say the student name.
+
+93
+00:10:31.240 --> 00:10:33.250
+but that we could change that if needed.
+
+94
+00:10:34.570 --> 00:10:43.730
+Dora Demszky: Yeah. So I I think it's help Also, for example, like in connecting right a lot of times connecting you're like, oh.
+
+95
+00:10:44.080 --> 00:10:45.150
+actually.
+
+96
+00:10:45.350 --> 00:10:49.890
+Ashlee Kupor (SL): said this, Dora. What do you think? Right? So it's using student names already.
+
+97
+00:10:50.500 --> 00:11:02.840
+Dora Demszky: This names are actually okay. I'm: more concerned about full names in the zoom username. I'm: most concerned about just speaker names, you know. And it's
+
+98
+00:11:03.440 --> 00:11:08.450
+Dora Demszky: Yeah, I think first names are fine. You can't really trace that back.
+
+99
+00:11:09.350 --> 00:11:10.280
+Ashlee Kupor (SL): Yeah.
+
+100
+00:11:10.830 --> 00:11:16.920
+Dora Demszky: So maybe I guess this is because what you're doing, I guess, is you are going to pipe from a
+
+101
+00:11:17.190 --> 00:11:21.760
+Dora Demszky: ideally like private storage, and then
+
+102
+00:11:21.850 --> 00:11:22.700
+Dora Demszky: I think
+
+103
+00:11:24.040 --> 00:11:36.920
+Dora Demszky: I think I do think I actually it would be kind of nice for you to not just typing back. but save at least the de identified transcript locally, because so many things can break
+
+104
+00:11:37.070 --> 00:11:55.820
+Dora Demszky: to have, like a copy of the transcription of the our goals and data, or whatever somewhere that's not just the database, but that should be de identified like anything. I guess that is not doesn't live on the code in place. Private thing
+
+105
+00:11:55.940 --> 00:12:02.700
+Dora Demszky: should be de-identified maybe that's a better way to frame that Well.
+
+106
+00:12:03.200 --> 00:12:06.090
+Ashlee Kupor (SL): so you're you're in to save it all
+
+107
+00:12:07.510 --> 00:12:13.830
+Ashlee Kupor (SL): sorry. Oh, like Why, in case something goes wrong? Because our are we still gonna have the transcript link
+
+108
+00:12:15.160 --> 00:12:16.440
+Ashlee Kupor (SL): in the database.
+
+109
+00:12:18.390 --> 00:12:23.610
+Dora Demszky: Yes, yes, we will. I guess
+
+110
+00:12:24.470 --> 00:12:28.990
+Ashlee Kupor (SL): it's like, I guess, here at. If something went wrong we could just like, run it back through the model again.
+
+111
+00:12:30.380 --> 00:12:40.830
+Dora Demszky: Yeah, that is true. Okay, maybe it's it's just something we can do at the end or something like that. But I guess I just wanna make sure. There.
+
+112
+00:12:41.750 --> 00:12:49.070
+Dora Demszky: we some. We we don't lose them, sure. Yeah, maybe we can think, because also, if we're sending it into this
+
+113
+00:12:49.440 --> 00:12:57.210
+Ashlee Kupor (SL): when you say, save locally right. This endpoints running on. hugging me. So we definitely don't want to save it.
+
+114
+00:12:57.220 --> 00:13:03.440
+Ashlee Kupor (SL): They are not there. No, no, no, no, no, no, No, no, no, not there, I mean
+
+115
+00:13:05.010 --> 00:13:20.590
+Dora Demszky: so I don't know exactly like. Are you planning to completely to me the workflow? Meaning I did. That would be ideal, I guess. But if it's not possible like, yeah, I guess is, it is a current plan to just pipe everything automatically
+
+116
+00:13:20.730 --> 00:13:25.230
+Dora Demszky: and then back into the front end like to, or the database.
+
+117
+00:13:26.790 --> 00:13:41.610
+Ashlee Kupor (SL): Yeah, we haven't talked about that flow yet. But I I think there's a couple of ways we'd one is we could basically I don't. I mean, I also, like I don't know, Reacts depicts the expert in that. But, like
+
+118
+00:13:41.670 --> 00:13:44.780
+Ashlee Kupor (SL): i'm thinking if we can put in like some
+
+119
+00:13:45.120 --> 00:13:47.460
+watcher for the database, so like
+
+120
+00:13:47.840 --> 00:13:59.350
+Ashlee Kupor (SL): as soon as a new transcript is added for section later. just run that through the model. Put the data back in, so that then, whenever they click on their feedback page. it's ready to go.
+
+121
+00:13:59.480 --> 00:14:10.570
+Dora Demszky: Yes, yes, it's that would be ideal, but it's not really a reacting. It's a back end thing, which I think is in python. So which is possible.
+
+122
+00:14:12.280 --> 00:14:16.860
+Dora Demszky: you know you could. I don't actually know how their back end works, but that's how I set it up
+
+123
+00:14:17.220 --> 00:14:30.850
+Dora Demszky: Last time is that there's this thing called the Celery Task. Every like 15 min or so you can check for any new entries in the database, and then it runs. The process runs that data through a process.
+
+124
+00:14:34.760 --> 00:14:44.860
+Dora Demszky: I I guess we just all of the things that are going on. I feel like I wouldn't count on it. It would be really nice. Yeah, yeah, that's about
+
+125
+00:14:46.630 --> 00:14:48.520
+Dora Demszky: what I did.
+
+126
+00:14:51.100 --> 00:15:03.840
+Dora Demszky: So I did actually like ended up just downloading all the transcripts locally from code in place last time ha processing it through my thing
+
+127
+00:15:04.080 --> 00:15:06.330
+Dora Demszky: and then putting it back in.
+
+128
+00:15:06.460 --> 00:15:11.830
+Dora Demszky: I think that's what ended up happening. So
+
+129
+00:15:13.920 --> 00:15:15.380
+Dora Demszky: I think we just have to
+
+130
+00:15:17.070 --> 00:15:28.730
+Ashlee Kupor (SL): by by by downloading or like, yeah, if that's possible. I'm having to do like we can at least plan on it, just because there's so many moving parts now we can at least plan on that for the first week, and then try to get something.
+
+131
+00:15:29.090 --> 00:15:30.800
+Dora Demszky: Yes, it's automated.
+
+132
+00:15:31.430 --> 00:15:40.250
+Ashlee Kupor (SL): I don't know. Maybe maybe if you want to. especially since you've done that like I just don't know, like I don't even have the
+
+133
+00:15:40.360 --> 00:15:45.120
+Ashlee Kupor (SL): the code base set up yet right? Because I've just been working on the model. So like.
+
+134
+00:15:45.220 --> 00:15:49.450
+Ashlee Kupor (SL): if you want to take the lead on that, or deepak, or something, I think would be helpful. Just so.
+
+135
+00:15:49.870 --> 00:15:55.620
+Ashlee Kupor (SL): I think there's just like a lot of overhead to get. The thing is that I don't.
+
+136
+00:15:55.760 --> 00:16:00.320
+Dora Demszky: So the way that I did it last time was basically I had my own entire app
+
+137
+00:16:00.360 --> 00:16:02.540
+Dora Demszky: that was running, and
+
+138
+00:16:02.960 --> 00:16:18.160
+Dora Demszky: that was kind of my own that I had my own back end, which is separate. I did not touch their back end. It was not an setup, I think, because I mean it was still manual work. I just did that once a week. I downloaded the data from code in place
+
+139
+00:16:18.310 --> 00:16:21.830
+Dora Demszky: and then fed it through my app
+
+140
+00:16:21.920 --> 00:16:27.590
+Dora Demszky: and then could plug back the so I think that.
+
+141
+00:16:32.000 --> 00:16:33.000
+Dora Demszky: And again.
+
+142
+00:16:33.030 --> 00:16:44.760
+Dora Demszky: because that was like a totally separate back end like I, that's for control over it. And I I think here it would has to be someone like I probably not you or not me or
+
+143
+00:16:44.790 --> 00:16:46.350
+Dora Demszky: like, just
+
+144
+00:16:47.810 --> 00:16:50.130
+Dora Demszky: because it's kind of a sensitive
+
+145
+00:16:50.510 --> 00:16:57.040
+Dora Demszky: thing, I think to like. Add that process in. That's kind of doing stuff on the back end. So
+
+146
+00:16:58.400 --> 00:17:04.010
+Dora Demszky: okay, so I guess what? What? I'm just trying to say that I think it might actually not be that much work
+
+147
+00:17:05.640 --> 00:17:16.300
+Dora Demszky: every day run like you have. You have a script that basically just runs through the storage checks for any new files.
+
+148
+00:17:17.020 --> 00:17:18.490
+Dora Demszky: Download it
+
+149
+00:17:19.819 --> 00:17:25.859
+Dora Demszky: locally. We're not downloaded. You might not even need to download it. You just pipe it through directly
+
+150
+00:17:27.460 --> 00:17:47.520
+Dora Demszky: and then save the results and upload to the database. So this could just be. I guess it 2 step. You probably have to wait until the process. The the Api gives you the results back, especially if it's like
+
+151
+00:17:48.160 --> 00:17:51.750
+Dora Demszky: 200 transcript. It's not gonna be an instant.
+
+152
+00:17:51.940 --> 00:17:55.910
+Dora Demszky: but it's Really, I don't think it's that that
+
+153
+00:17:56.450 --> 00:18:05.330
+Dora Demszky: that terrible of a setup, because we to batch things, because if you want to show the average, it would have to be.
+
+154
+00:18:05.950 --> 00:18:17.660
+Dora Demszky: and taxes. so it every like. I don't know every night whenever I like you, just it should be all automated ideally. So it really wouldn't take a lot of your time, I think.
+
+155
+00:18:18.170 --> 00:18:19.750
+Ashlee Kupor (SL): Okay, yeah.
+
+156
+00:18:20.920 --> 00:18:33.090
+Dora Demszky: I guess just what I was I was saying. There is that if you do download. maybe it is safest to in that like process.
+
+157
+00:18:33.290 --> 00:18:45.380
+Dora Demszky: when, like basically on. And the Api just replace names. If there's at any point like, you know, the data is like locally saved, and all that. Or you could just delete it afterwards. But I guess
+
+158
+00:18:45.550 --> 00:18:50.470
+Dora Demszky: if we want to de identify eventually, anyways, then it might be
+
+159
+00:18:53.040 --> 00:19:00.390
+Dora Demszky: Yeah, I don't know. What do you think you think about the way I see it in my head?
+
+160
+00:19:01.030 --> 00:19:02.340
+Ashlee Kupor (SL): I mean, yeah, I don't know.
+
+161
+00:19:03.120 --> 00:19:12.750
+Ashlee Kupor (SL): Yeah, how to do the script exactly, but that it's basically, just gonna get a whole bunch of links right? That links to a transcript that lives somewhere.
+
+162
+00:19:12.920 --> 00:19:22.530
+Ashlee Kupor (SL): And then right I have that api endpoint. So i'm just calling the endpoint with the link with eliciting or whatever. And then that's returning.
+
+163
+00:19:22.620 --> 00:19:31.130
+Ashlee Kupor (SL): Jason, and then that Jason's just getting pushed directly to the database like I don't see really any part of the process where it
+
+164
+00:19:31.190 --> 00:19:40.480
+Ashlee Kupor (SL): would be saved locally, like we just send a link into this Api endpoint, and then we get Json back. and that might be de identified. But like I'm not.
+
+165
+00:19:40.560 --> 00:19:46.490
+Ashlee Kupor (SL): That's getting pushed saved right to the database, and then we move to the next to the database.
+
+166
+00:19:47.180 --> 00:19:50.170
+Dora Demszky: How do you save it to the database?
+
+167
+00:19:50.420 --> 00:20:01.540
+Ashlee Kupor (SL): So that's all the Json I mean. None of that is written yet, but the Json that it returns would just get saved into. I talked with Deepak about the different fields like
+
+168
+00:20:01.770 --> 00:20:10.320
+Dora Demszky: there's like 4 things we need to. but I guess that script has to run on the code in place back end. Yeah.
+
+169
+00:20:10.910 --> 00:20:20.800
+Dora Demszky: So I think that's a key piece where we can. I think 100% rely on that. We might have to. You might have to run a script
+
+170
+00:20:20.920 --> 00:20:27.790
+Dora Demszky: that's not in the back their back end, you know. Also, I don't think they're because
+
+171
+00:20:28.260 --> 00:20:31.070
+Ashlee Kupor (SL): neither do you back, or I know what like.
+
+172
+00:20:31.220 --> 00:20:41.920
+Ashlee Kupor (SL): Apparently they have no back end. They are serverless, Matt said. So they don't have any. Yeah, I I we do what he said. We were talking to him yesterday
+
+173
+00:20:45.070 --> 00:20:58.390
+Ashlee Kupor (SL): like, yeah, we said, we want to save data from the back end to the firestore database. How do we do this inside? Blah blah cip is completely serverless to do anything in the back end you would have to spin up your own server.
+
+174
+00:20:58.600 --> 00:21:00.260
+Ashlee Kupor (SL): So yeah, I guess our script
+
+175
+00:21:01.320 --> 00:21:04.060
+Ashlee Kupor (SL): would need to live somewhere on our own.
+
+176
+00:21:06.060 --> 00:21:07.470
+Dora Demszky: Yeah, okay.
+
+177
+00:21:07.500 --> 00:21:11.240
+Dora Demszky: Got it so
+
+178
+00:21:16.030 --> 00:21:20.700
+Dora Demszky: which we could do. I mean, that's what I did last time
+
+179
+00:21:22.340 --> 00:21:23.070
+Dora Demszky: it
+
+180
+00:21:24.680 --> 00:21:33.880
+Dora Demszky: feels like an overkill. I'm. Confused that they don't have a back end. They must have something that's confusing. So how do they?
+
+181
+00:21:35.270 --> 00:21:42.040
+Dora Demszky: What does it mean that it's like. But how are they doing all these other things like.
+
+182
+00:21:45.550 --> 00:21:48.200
+Dora Demszky: I don't know. I'm: i'm a little confused by that.
+
+183
+00:21:48.480 --> 00:21:50.650
+Dora Demszky: But yeah, yeah, same.
+
+184
+00:21:52.070 --> 00:21:53.640
+Dora Demszky: Okay, so.
+
+185
+00:21:54.960 --> 00:22:01.350
+Dora Demszky: But in any case, I think we are talking about just some that I basically the exact same thing. I think the only question is
+
+186
+00:22:02.760 --> 00:22:15.220
+Dora Demszky: whether you're you're gonna press that button on your own on your own computer. Like to run the script that script or is like, is it happening on the back end of automatically. And I think.
+
+187
+00:22:15.990 --> 00:22:20.380
+Dora Demszky: honestly, I don't think it makes. I'm happy to yeah press button.
+
+188
+00:22:20.950 --> 00:22:23.980
+Dora Demszky: Yeah, it's just it. Just
+
+189
+00:22:26.380 --> 00:22:43.920
+Ashlee Kupor (SL): so Deepak has insight into how data could be saved. That's something I have no idea. For example. Yeah, we do know how to save data. There's like a he. Yeah, we were talking about by us. There's like an update call to the back end or not to the back end to the database.
+
+190
+00:22:44.800 --> 00:22:45.590
+Dora Demszky: Got it.
+
+191
+00:22:45.720 --> 00:23:03.700
+Dora Demszky: Okay, but the thing is so okay. So, for example, I do think that there has to be a back end, because if Chris is saving the zoom recordings automatically, and I think he was sharing a python script, for that happens somewhere on the back end, and I imagine he's not gonna do that manually.
+
+192
+00:23:03.760 --> 00:23:08.570
+Dora Demszky: So they have. They are running process that just gonna do that automatically for him.
+
+193
+00:23:08.880 --> 00:23:16.170
+Ashlee Kupor (SL): Yeah, that maybe we could just stick our code in there. That would be like the first place for it to live right
+
+194
+00:23:16.420 --> 00:23:22.040
+Dora Demszky: sure. Could you maybe ask Chris about that? Yes, yes, so let me ask him.
+
+195
+00:23:27.180 --> 00:23:33.960
+Dora Demszky: I was gonna actually schedule a time for us 3 to meet. I actually my deep had to
+
+196
+00:23:34.650 --> 00:23:39.480
+Dora Demszky: next early next week to just go through. I don't know all these
+
+197
+00:23:39.680 --> 00:23:43.880
+Dora Demszky: last minute. Okay. But I guess the the thing is.
+
+198
+00:23:49.800 --> 00:23:55.430
+Dora Demszky: Yeah, this all sounds good. So then the other. The last thing I wanted to talk about was
+
+199
+00:23:55.930 --> 00:24:01.720
+Dora Demszky: which I think all the things that you're doing now are like the highest priority. But then there's
+
+200
+00:24:03.140 --> 00:24:05.240
+Dora Demszky: the training team.
+
+201
+00:24:07.200 --> 00:24:09.180
+Dora Demszky: I don't know if you saw that.
+
+202
+00:24:22.060 --> 00:24:24.840
+Dora Demszky: Okay. So here.
+
+203
+00:24:28.050 --> 00:24:29.810
+Dora Demszky: Do you see my screen?
+
+204
+00:24:29.880 --> 00:24:30.660
+Ashlee Kupor (SL): Yeah.
+
+205
+00:24:30.880 --> 00:24:31.760
+Dora Demszky: Okay, Great.
+
+206
+00:24:31.810 --> 00:24:33.680
+Dora Demszky: So
+
+207
+00:24:37.560 --> 00:24:39.270
+Dora Demszky: So basically they just
+
+208
+00:24:39.500 --> 00:24:51.140
+Dora Demszky: had some. I suggestions for updating the feedback page like the part where you start. and then I guess these are things for deep fuck, I guess. But
+
+209
+00:25:08.120 --> 00:25:09.680
+Dora Demszky: okay, i'm just reading it.
+
+210
+00:25:11.930 --> 00:25:14.500
+Dora Demszky: So you don't want to change anything.
+
+211
+00:25:14.990 --> 00:25:17.520
+Dora Demszky: Okay? Yeah, it doesn't sound like it.
+
+212
+00:25:21.270 --> 00:25:27.260
+Dora Demszky: Yeah, I don't love this phrasing, though curiosity was exhibited like, what do we mean by that?
+
+213
+00:25:30.390 --> 00:25:34.070
+Ashlee Kupor (SL): I isn't that in the the reflection.
+
+214
+00:25:34.780 --> 00:25:35.970
+Dora Demszky: It is. But
+
+215
+00:25:36.630 --> 00:25:48.850
+Dora Demszky: but I just don't love that wording because it's come. I I feel like, do we mean like I think it's a place harder kind of that debug put in there. I think we can. We couldn't make that. But anyways.
+
+216
+00:25:48.960 --> 00:26:00.620
+Dora Demszky: Okay, that reminds me, I should just send this page to heather for comments, and maybe we could come out with a slightly better phrasing. But it sounds like that Training team is fine with it.
+
+217
+00:26:00.960 --> 00:26:02.180
+Dora Demszky: Yeah.
+
+218
+00:26:04.230 --> 00:26:14.870
+Dora Demszky: And was there anything else about the page that that we would? We wanted to change? Okay, let me ask you, like actually to send us the latest
+
+219
+00:26:14.930 --> 00:26:24.690
+Dora Demszky: person. So yeah, that's I think. Yeah. Working on the script. It sounds great. I will send you the Chat transcript and the actual transcript from this. So you can like.
+
+220
+00:26:24.880 --> 00:26:25.850
+Dora Demszky: create that
+
+221
+00:26:25.950 --> 00:26:32.570
+Dora Demszky: thing, and then let's wait to hear back from Chris about
+
+222
+00:26:32.760 --> 00:26:37.780
+Ashlee Kupor (SL): Yeah, I guess where the files will live and then how to?
+
+223
+00:26:38.120 --> 00:26:46.400
+Ashlee Kupor (SL): Yeah. He has a script, if we can just add in our own thing there, and if you have the code that you did from last year, that would be helpful, too.
+
+224
+00:26:46.570 --> 00:26:53.500
+Dora Demszky: I probably won't be able to get to that scripting for
+
+225
+00:26:53.830 --> 00:26:57.590
+Dora Demszky: my script. Oh, yeah, right. It runs on your own.
+
+226
+00:26:57.620 --> 00:27:04.720
+Dora Demszky: Yes, and it it's not. It was not using having face at all.
+
+227
+00:27:05.590 --> 00:27:07.170
+Dora Demszky: It pretty much.
+
+228
+00:27:07.350 --> 00:27:12.830
+Dora Demszky: Yeah, so I and i'm not even sure if we are plugging it in. I'm not even sure if we need this
+
+229
+00:27:12.960 --> 00:27:22.940
+Dora Demszky: tasks that repeatedly checks, we could just do it at the with the same go as when the transcript is being saved. The same time you send it
+
+230
+00:27:22.950 --> 00:27:24.530
+Dora Demszky: so. I think that would be great.
+
+231
+00:27:24.980 --> 00:27:38.150
+Dora Demszky: simple, and then relatedly One thing that you could try out, though, if if you send it to file. Is it going? Coming back instantaneously, or do you have to like wait for it?
+
+232
+00:27:38.330 --> 00:27:42.270
+Dora Demszky: I guess this is like you send you. Send this. You send the transcript.
+
+233
+00:27:42.540 --> 00:27:44.640
+Dora Demszky: does it?
+
+234
+00:27:48.560 --> 00:27:59.610
+Dora Demszky: Yeah, okay, I I realize my question Doesn't: quite make sense. I know that, for example, for for some of the transcription services. The way that they work is, You send the post request, and then
+
+235
+00:28:00.350 --> 00:28:01.930
+Dora Demszky: your
+
+236
+00:28:02.630 --> 00:28:05.760
+Dora Demszky: you're done, and then it it kind of later
+
+237
+00:28:05.930 --> 00:28:17.030
+Dora Demszky: you can query, for it's results again. But I know that the so inference api doesn't work that way. But you like, just get calling a function. You get a results right away.
+
+238
+00:28:17.620 --> 00:28:25.620
+Dora Demszky: But yeah, just confirm, like, yeah, you could try out like how long it takes, because there might be latency might create some issues like, if it's
+
+239
+00:28:25.630 --> 00:28:27.970
+Dora Demszky: if it's.
+
+240
+00:28:28.780 --> 00:28:30.860
+Dora Demszky: I do know that. like
+
+241
+00:28:31.280 --> 00:28:51.530
+Dora Demszky: we were using the Api, and when the transcript was really long, like, I think it's only an issue when there are like thousands of us. but now we've we've been recording for a while. So i'm hoping this transcript will be long. You could like double the size you could duplicate it so that you can just see if it fails or has any issues
+
+242
+00:28:51.590 --> 00:28:54.360
+Dora Demszky: when it's like a long, long transcript.
+
+243
+00:28:55.520 --> 00:28:57.690
+Dora Demszky: Okay, yeah.
+
+244
+00:28:57.900 --> 00:28:58.600
+Dora Demszky: Sorry.
+
+245
+00:29:00.280 --> 00:29:03.090
+Ashlee Kupor (SL): Yeah. I mean, I i'm just thinking how.
+
+246
+00:29:04.830 --> 00:29:07.850
+Ashlee Kupor (SL): Yeah, Never mind. Oh, yeah, I I see what you're saying.
+
+247
+00:29:08.440 --> 00:29:12.640
+Dora Demszky: Yeah. And then maybe just one small thing, which is.
+
+248
+00:29:13.650 --> 00:29:19.410
+Dora Demszky: do you? If you can just add a flag or like a function that
+
+249
+00:29:19.710 --> 00:29:24.820
+Dora Demszky: anonymizes things, and if you could just turn it on if you want it, you know, if
+
+250
+00:29:24.920 --> 00:29:29.200
+Dora Demszky: if it it we later on, we could just decide to anonymize or not
+
+251
+00:29:29.490 --> 00:29:37.450
+Dora Demszky: in the process, you know, on the or in your handler, and it could just be an argument which is like, anonymize
+
+252
+00:29:37.700 --> 00:29:38.610
+Dora Demszky: or not.
+
+253
+00:29:42.160 --> 00:29:45.530
+Ashlee Kupor (SL): Okay, yeah. I I mean.
+
+254
+00:29:46.150 --> 00:29:53.490
+Ashlee Kupor (SL): I just this is so much to do, and I I have a lot other going on, too. So yeah, I I will do my best. But I think
+
+255
+00:29:54.360 --> 00:29:57.480
+Ashlee Kupor (SL): probably that, like the highest priorities, I will get the like
+
+256
+00:29:58.110 --> 00:30:07.710
+Ashlee Kupor (SL): models up and going, and like making sure that yeah, it works with depth. I don't know if you can take on or like as much as you can help with the script
+
+257
+00:30:08.030 --> 00:30:10.460
+Ashlee Kupor (SL): would be helpful
+
+258
+00:30:11.150 --> 00:30:16.130
+Ashlee Kupor (SL): just because I know there's there's a ton ton to do, especially when it's done before Monday.
+
+259
+00:30:16.170 --> 00:30:32.410
+Dora Demszky: Thank you so much for for doing all this. It's it's been like awesome, too, that you like. You just like You're so independently like, did everything. And like, yeah, thank you. Very little like. And holding, which is that I was just like amazing.
+
+260
+00:30:32.470 --> 00:30:39.470
+Ashlee Kupor (SL): And I really appreciate that. Yes. So I yeah, I think, yeah, I just don't want to prom like my my grandparents are visiting this weekend, so I don't want to like
+
+261
+00:30:39.480 --> 00:30:58.650
+Dora Demszky: promise too much, and under deliver. So yeah, like as much as yeah. So either me or Depa can help. I do have like a a paper that i'm doing. I know it's it's, but I think that I I agree that to chat transcript and just making sure it works with the file.
+
+262
+00:30:58.650 --> 00:30:59.600
+Dora Demszky: It's all
+
+263
+00:30:59.710 --> 00:31:18.620
+Dora Demszky: Yeah, I think that those should be like re relatively straightforward, and anything else could wait. And I will figure out what was the process. And then don't you, don't worry about that. Now let's definitely chat about that on Monday or whenever we yeah work with yeah, because it I don't think it makes sense to start
+
+264
+00:31:18.910 --> 00:31:21.750
+Ashlee Kupor (SL): it. Now, if we're just gonna have to change it later.
+
+265
+00:31:21.850 --> 00:31:25.360
+Ashlee Kupor (SL): But yeah, no, that makes sense. I will.
+
+266
+00:31:25.440 --> 00:31:29.400
+Ashlee Kupor (SL): Yeah. Work on everything except pick up the script for now.
+
+267
+00:31:29.630 --> 00:31:34.100
+Dora Demszky: Yes, and the d identification to. I can just do that if this helpful, I think.
+
+268
+00:31:35.580 --> 00:31:39.350
+Ashlee Kupor (SL): Yeah, I think it should. That that should be really easy.
+
+269
+00:31:39.680 --> 00:31:40.550
+Dora Demszky: Just
+
+270
+00:31:40.680 --> 00:31:53.920
+Ashlee Kupor (SL): yeah, when we're saving the names instead of saving it as the person we can just replace it with a the. But yeah, I I know I know how we could do that in code pretty easily.
+
+271
+00:31:54.200 --> 00:31:56.250
+Dora Demszky: Okay, Great. Okay. So it's really.
+
+272
+00:31:56.270 --> 00:32:06.480
+Dora Demszky: hopefully, hopefully, it's the biggest lift, I think, is just merging the chat. I think that because and and there, by the way.
+
+273
+00:32:06.880 --> 00:32:11.640
+Dora Demszky: I think that Candace has written a script for that already, and I
+
+274
+00:32:11.780 --> 00:32:19.910
+Dora Demszky: now maybe she will send you something. Maybe she put it already on on the github of
+
+275
+00:32:20.170 --> 00:32:25.700
+Dora Demszky: hers. I'm. Not sure. Probably not. But you could just ask
+
+276
+00:32:26.460 --> 00:32:28.850
+Dora Demszky: if she has a script for merging.
+
+277
+00:32:31.000 --> 00:32:36.360
+Ashlee Kupor (SL): Yeah, let's see, she sent me a while ago this sample whisper
+
+278
+00:32:37.040 --> 00:32:39.770
+Ashlee Kupor (SL): transcript.
+
+279
+00:32:41.150 --> 00:32:43.650
+Ashlee Kupor (SL): I don't know if this has anything with chat.
+
+280
+00:32:45.390 --> 00:33:01.430
+Dora Demszky: Oh, and I remember so she actually probably Doesn't: because I think she wasn't working with Vtt: transcripts. Oh, yeah, this is temporary version that excludes chat transcripts.
+
+281
+00:33:09.560 --> 00:33:15.240
+Ashlee Kupor (SL): Yeah, no. It looks like the data she's reading in already has a value. If it's chat or not.
+
+282
+00:33:26.000 --> 00:33:42.970
+Dora Demszky: Okay, great. I have to run to another meeting. Now. Yeah, I keep you updated on slack, and i'm sure it will be great, and it will be fine, and I feel like the heavy. The hardest part is already done, so that's great. The models are there? And yeah.
+
+283
+00:33:43.420 --> 00:33:44.190
+Dora Demszky: so
+
+284
+00:33:44.440 --> 00:33:47.160
+Dora Demszky: awesome. All right, Talk to you soon.
+
